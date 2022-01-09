@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "CocoaSecurity-VF"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of CocoaSecurity-VF."
+  spec.summary      = "Fork of CocoaSecurity to remove submodules."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,12 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                   DESC
 
-  spec.homepage     = "http://EXAMPLE/CocoaSecurity-VF"
+This provides Cocoa Security. 
+DESC
+                   
+
+  spec.homepage     = "http://github.com/vfrascello"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +41,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -79,7 +82,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/CocoaSecurity-VF.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "http://github.com/vfrascello/CocoaSecurity.git", :tag => "#{0.0.1}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
