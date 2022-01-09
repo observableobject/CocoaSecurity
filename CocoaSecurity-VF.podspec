@@ -82,7 +82,7 @@ DESC
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://github.com/vfrascello/CocoaSecurity.git", :tag => "#{0.0.1}" }
+  spec.source       = { :git => "http://github.com/vfrascello/CocoaSecurity.git", :tag => spec.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
