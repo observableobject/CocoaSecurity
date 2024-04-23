@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CocoaSecurity-VF"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "Fork of CocoaSecurity to remove submodules."
 
   # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ This provides Cocoa Security.
 DESC
                    
 
-  spec.homepage     = "http://github.com/vfrascello"
+  spec.homepage     = "http://github.com/observableobject"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -67,7 +67,7 @@ DESC
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  spec.platform     = :ios, "12.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
