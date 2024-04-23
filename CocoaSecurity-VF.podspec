@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CocoaSecurity-VF"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Fork of CocoaSecurity to remove submodules."
 
   # This description is used to generate tags and improve search results.
@@ -96,7 +96,7 @@ DESC
   spec.source_files  = "CocoaSecurity", "CocoaSecurity/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
-  # spec.public_header_files = "CocoaSecurity/**/*.h"
+  spec.public_header_files = "CocoaSecurity/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
